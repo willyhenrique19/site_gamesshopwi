@@ -10,8 +10,8 @@ header li {
 }
 
 .container{
-
-    display: flex;
+    width: 1366px;
+    margin: 0 auto;
 }
 
 section.articles{
