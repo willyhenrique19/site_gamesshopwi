@@ -5,7 +5,9 @@
 }
 
 body > header {
-    background-color: gray
+    color: #f5f6f5;
+    padding: 15px 0;
+    background-color: black
 }
 
 header li {
@@ -14,6 +16,8 @@ header li {
 
 header .container{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .container{
