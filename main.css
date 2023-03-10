@@ -12,6 +12,13 @@ body > header {
 
 header li {
     display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+header li a{
+    color: #ccc;
+    text-decoration: none;
 }
 
 header .container{
@@ -34,7 +41,7 @@ header .container{
     justify-content: space-between;
 }
 .articles article img {
-    height: 180px;
+    height: 180px; 
 }
 
 .articles article {
@@ -59,4 +66,51 @@ section h2{
     color: #fff;
     padding: 8px;
     display: inline-block;
+    font-weight: bold;
+    margin-top: 13px;
+}
+
+.articles article p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.articles article h3{
+    font-size: 50px;
+}
+
+section h2{ 
+    font-size: 32px;
+}
+
+#sports{
+    background-color: rgba(0,255,0,0.1);
+}
+
+#sports .articles article a{
+    background-color: black;
+}
+
+#economy{
+    background-color: rgba(200, 255, 0, 0.1);;
+}
+
+#economy .articles article a{
+    background-color: black;
+}
+
+#anime{
+    background-color:rgba(247, 17, 227, 0.1) ;
+}
+
+#anime .articles article a{
+    background-color: black;
+}
+
+#Tecnologi{
+    background-color: rgba(32, 17, 247, 0.1) ;
+}
+
+#Tecnologi .articles article a{
+    background-color: black;
 }
