@@ -102,7 +102,7 @@ form button{
 
 form textarea{
     resize: none;
-    height: 180px;
+    height: 18px;
 }
 
 section h3{
@@ -114,18 +114,22 @@ form button{
     color: aliceblue;
     border: none;
     cursor: pointer;
+    width: 320px;
+    padding: 8px;
+    margin-top: 8px;
 }
 
 form button:hover{
     background-color: rgb(41, 41, 156);
 }
 
-input:focus, textarea:focus{
+input:focus, 
+textarea:focus{
     outline-color: blueviolet;
 }
 
 footer{
     background-color: rgb(25, 25, 70) ;
     color: azure;
-    padding: 16px 0;
+    padding: 16px 0 ;
 }
