@@ -92,7 +92,7 @@ section p{
 }
 
 form input,
-form textarea
+form textarea,
 form button{
     display: block;
     width: 320px;
@@ -103,6 +103,8 @@ form button{
 form textarea{
     resize: none;
     height: 18px;
+    padding: 9px;
+    width: 320px;
 }
 
 section h3{
@@ -114,7 +116,7 @@ form button{
     color: aliceblue;
     border: none;
     cursor: pointer;
-    width: 320px;
+    width: 340px;
     padding: 8px;
     margin-top: 8px;
 }
